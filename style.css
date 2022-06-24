@@ -27,6 +27,20 @@ header .menu nav a {
 header .menu nav a:hover {
   color: #ffc800;
 }
+header .menu .icon {
+  font-size: 25px;
+  color: #fff;
+  display: none;
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  header .menu nav {
+    display: none;
+  }
+  header .menu .icon {
+    display: block;
+  }
+}
 
 #welcome {
   min-height: 70vh;
