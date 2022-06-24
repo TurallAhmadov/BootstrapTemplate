@@ -70,4 +70,12 @@ header .menu .icon {
 }
 #welcome .textbox .btn:hover {
   background-color: #d9aa00;
+}
+@media screen and (max-width: 768px) {
+  #welcome .textbox h1 {
+    font-size: 25px;
+  }
+  #welcome .textbox h3 {
+    font-size: 45px;
+  }
 }/*# sourceMappingURL=style.css.map */
