@@ -1,5 +1,33 @@
 body {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   font-weight: 500;
 }
-/*# sourceMappingURL=style.css.map */
+
+.imgbox {
+  overflow: hidden;
+}
+.imgbox img {
+  width: 100%;
+}
+
+header {
+  padding: 30px 0;
+  background-color: #212529;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+header .menu .imgbox {
+  width: 200px;
+}
+header .menu nav a {
+  font-size: 18px;
+  font-weight: 300;
+  margin-right: 20px;
+  transition: 300ms color;
+  cursor: pointer;
+}
+header .menu nav a:hover {
+  color: #ffc800;
+}/*# sourceMappingURL=style.css.map */
