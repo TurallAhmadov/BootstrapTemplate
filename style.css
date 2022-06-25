@@ -129,4 +129,56 @@ header .menu .icon {
   #services .textbox p {
     margin-bottom: 20px;
   }
+}
+
+#portfolio {
+  background-color: #f8f9fa;
+  padding: 80px 0;
+}
+#portfolio h1 {
+  font-size: 45px;
+  color: #212529;
+  font-weight: 700;
+}
+#portfolio h3 {
+  margin: 20px 0 55px;
+  color: #6c757d;
+  font-style: italic;
+  font-size: 20px;
+}
+#portfolio .box {
+  margin-bottom: 25px;
+}
+#portfolio .box .imgbox {
+  position: relative;
+}
+#portfolio .box .imgbox:hover .hover {
+  opacity: 1;
+}
+#portfolio .box .imgbox .hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 200, 0, 0.9019607843);
+  opacity: 0;
+  cursor: pointer;
+  transition: 300ms opacity;
+}
+#portfolio .box .imgbox .hover .icon {
+  font-size: 50px;
+  color: #fff;
+}
+#portfolio .box .textbox {
+  padding: 20px;
+  background-color: #fff;
+}
+#portfolio .box .textbox h2 {
+  font-size: 24px;
+  font-weight: 700;
+}
+#portfolio .box .textbox h4 {
+  font-size: 20px;
+  color: #6c757d;
 }/*# sourceMappingURL=style.css.map */
