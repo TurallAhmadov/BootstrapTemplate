@@ -182,4 +182,59 @@ header .menu .icon {
 #portfolio .box .textbox h4 {
   font-size: 20px;
   color: #6c757d;
+}
+
+#about {
+  padding: 80px 0;
+}
+#about h1 {
+  font-size: 45px;
+  color: #212529;
+  font-weight: 700;
+}
+#about h3 {
+  margin: 20px 0 55px;
+  color: #6c757d;
+  font-style: italic;
+  font-size: 20px;
+}
+#about .box {
+  margin-bottom: 100px;
+}
+#about .box .textbox {
+  width: 600px;
+  padding: 0px 40px 20px 100px;
+  text-align: right;
+}
+#about .box .textbox h2, #about .box .textbox h4 {
+  color: #212529;
+  font-weight: 700;
+  font-size: 20px;
+}
+#about .box .textbox h4 {
+  margin: 10px 0;
+}
+#about .box .textbox p {
+  color: #6c757d;
+  line-height: 1.85;
+}
+#about .box .imgbox, #about .box .bepart {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  border: 5px solid #e9ecef;
+}
+#about .box .bepart {
+  background-color: #ffc800;
+}
+#about .march, #about .july {
+  justify-content: flex-end;
+}
+#about .march .imgbox, #about .july .imgbox {
+  margin-right: -70px;
+}
+#about .march .textbox, #about .july .textbox {
+  text-align: left;
+  padding: 0px 100px 20px;
+  order: 2;
 }/*# sourceMappingURL=style.css.map */
