@@ -247,4 +247,62 @@ header .menu .icon {
   margin-right: -70px;
   padding: 0 35px;
   line-height: 1.15;
+}
+
+#team {
+  padding: 80px 0;
+  background-color: #f8f9fa;
+}
+#team h1 {
+  font-size: 45px;
+  color: #212529;
+  font-weight: 700;
+}
+#team h3 {
+  margin: 20px 0 55px;
+  color: #6c757d;
+  font-style: italic;
+  font-size: 20px;
+}
+#team .box {
+  margin-bottom: 50px;
+}
+#team .box .imgbox {
+  width: 225px;
+  border: 8px solid rgba(0, 0, 0, 0.1019607843);
+  border-radius: 50%;
+}
+#team .box .textbox h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 25px 0 10px;
+}
+#team .box .textbox h4 {
+  color: #6c757d;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+#team .box .textbox li .icon {
+  width: 40px;
+  height: 40px;
+  background-color: #212529;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
+#team h5 {
+  color: #6c757d;
+  font-size: 20px;
+  padding: 0 150px;
+}
+@media screen and (max-width: 992px) {
+  #team .box {
+    margin-bottom: 50px;
+  }
+  #team h5 {
+    padding: 0;
+  }
 }/*# sourceMappingURL=style.css.map */
