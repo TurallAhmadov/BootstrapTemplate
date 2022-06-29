@@ -305,4 +305,16 @@ header .menu .icon {
   #team h5 {
     padding: 0;
   }
+}
+
+#companies {
+  padding: 50px 0;
+}
+#companies .imgbox {
+  width: 180px;
+}
+@media screen and (max-width: 992px) {
+  #companies .imgbox {
+    margin-bottom: 25px;
+  }
 }/*# sourceMappingURL=style.css.map */
