@@ -317,4 +317,9 @@ header .menu .icon {
   #companies .imgbox {
     margin-bottom: 25px;
   }
+}
+
+#contact {
+  padding: 80px 0;
+  background-image: url(assets/map-image.png);
 }/*# sourceMappingURL=style.css.map */
