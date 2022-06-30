@@ -367,4 +367,37 @@ header .menu .icon {
   font-weight: 700;
   opacity: 0.65;
   margin-top: 30px;
+}
+
+footer {
+  padding: 24px 0;
+}
+footer h3, footer h4, footer h5 {
+  color: #212529;
+  font-weight: 300;
+}
+footer h4, footer h5 {
+  cursor: pointer;
+}
+footer h4 {
+  margin-right: 10px;
+}
+footer ul li .icon {
+  width: 40px;
+  height: 40px;
+  background-color: #212529;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
+@media screen and (max-width: 992px) {
+  footer .box {
+    flex-direction: column;
+  }
+  footer .box ul {
+    margin: 15px 0;
+  }
 }/*# sourceMappingURL=style.css.map */
