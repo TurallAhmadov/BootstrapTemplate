@@ -17,16 +17,12 @@ section {
 header {
   background-color: #212529;
   position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
   z-index: 100;
-}
-header .menu {
-  padding: 30px 0;
+  padding: 22px 0;
+  width: 100%;
 }
 header .menu .imgbox {
-  width: 200px;
+  width: 150px;
 }
 header .menu nav a {
   font-size: 18px;
@@ -38,20 +34,26 @@ header .menu nav a {
 header .menu nav a:hover {
   color: #ffc800;
 }
-header .menu .icon {
-  font-size: 25px;
-  color: #fff;
+header .menu .iconbox {
+  border: 2px solid rgba(255, 255, 255, 0.1450980392);
+  padding: 8px;
+  border-radius: 4px;
   display: none;
+}
+header .menu .iconbox h2 {
+  color: rgba(255, 255, 255, 0.5490196078);
+  font-size: 15px;
+  margin-right: 10px;
+}
+header .menu .iconbox .icon {
+  color: rgba(255, 255, 255, 0.5490196078);
   cursor: pointer;
 }
 @media screen and (max-width: 768px) {
-  header .menu {
-    padding: 18px 0;
-  }
   header .menu nav {
     display: none;
   }
-  header .menu .icon {
+  header .menu .iconbox {
     display: block;
   }
 }
