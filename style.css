@@ -44,6 +44,7 @@ header .menu .iconbox h2 {
   color: rgba(255, 255, 255, 0.5490196078);
   font-size: 15px;
   margin-right: 10px;
+  cursor: pointer;
 }
 header .menu .iconbox .icon {
   color: rgba(255, 255, 255, 0.5490196078);
@@ -55,6 +56,9 @@ header .menu .iconbox .icon {
   }
   header .menu .iconbox {
     display: block;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
   }
 }
 
