@@ -1,35 +1,47 @@
 #welcome
-    min-height: 70vh
     background-image: url(assets/header-bg.jpg)
     background-position: center center
     background-size: cover
     color: #fff
-    display: flex
-    align-items: center
     .textbox
-        h1
-            font-size: 30px
-            font-style: italic
+        padding: 30px 0
         h3
-            font-size: 75px
+            font-size: 30px
             font-weight: 700
-            margin: 30px 0 50px
+            font-style: italic
+        h1
+            font-size: 40px
+            margin: 25px 0 40px
         .btn
-            padding: 20px 55px
+            padding: 15px 30px
             background-color: #ffc800
-            font-size: 20px
+            font-size: 18px
             color: #fff
             font-weight: 700
             transition: 300ms background-color
             &:hover
                 background-color: #d9aa00
-        
-    
-    @media screen and ( max-width: 768px )
+
+    @media screen and ( min-width: 576px )
         .textbox
+            h3
+                font-size: 35px
             h1
-                font-size: 25px
+                font-size: 50px
+                margin-bottom: 30px 0 50px
+            .btn
+                padding: 20px 55px
+                font-size: 20px
+
+    @media screen and ( min-width: 768px )
+        .textbox
+            padding: 100px 0
+            h1
+                font-size: 60px
+    @media screen and ( min-width: 992px )
+        .textbox
+            padding: 140px 0 
             h3
                 font-size: 45px
-        
-                
+            h1
+                font-size: 70px
