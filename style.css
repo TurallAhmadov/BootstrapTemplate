@@ -176,15 +176,15 @@ header .menu .iconbox .icon {
   font-size: 20px;
 }
 #portfolio .box {
-  margin-bottom: 25px;
+  margin-bottom: 30px;
 }
 #portfolio .box .imgbox {
   position: relative;
 }
-#portfolio .box .imgbox:hover .hover {
+#portfolio .box .imgbox:hover .overlay {
   opacity: 1;
 }
-#portfolio .box .imgbox .hover {
+#portfolio .box .imgbox .overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -195,7 +195,7 @@ header .menu .iconbox .icon {
   cursor: pointer;
   transition: 300ms opacity;
 }
-#portfolio .box .imgbox .hover .icon {
+#portfolio .box .imgbox .overlay .icon {
   font-size: 50px;
   color: #fff;
 }
