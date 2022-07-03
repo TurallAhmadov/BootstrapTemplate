@@ -135,10 +135,7 @@ header .menu .iconbox .icon {
   font-style: italic;
   font-size: 20px;
 }
-#services .textbox {
-  padding: 0 35px;
-}
-#services .textbox .icon {
+#services .box .icon {
   width: 130px;
   height: 130px;
   line-height: 130px;
@@ -148,18 +145,19 @@ header .menu .iconbox .icon {
   background-color: #ffc800;
   display: inline-block;
 }
-#services .textbox h2 {
+#services .box h2 {
   margin: 20px 0;
   font-weight: 700;
   font-size: 24px;
 }
-#services .textbox p {
+#services .box p {
+  line-height: 1.4;
+  font-size: 20px;
   color: #6c757d;
-  line-height: 1.65;
 }
 @media screen and (max-width: 768px) {
-  #services .textbox p {
-    margin-bottom: 20px;
+  #services .box p {
+    margin-bottom: 30px;
   }
 }
 
