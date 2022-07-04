@@ -437,8 +437,17 @@ header .menu .iconbox .icon {
 #companies {
   padding: 50px 0;
 }
-#companies .imgbox {
-  width: 180px;
+#companies .microsoft {
+  max-width: 200px;
+}
+#companies .google {
+  max-width: 120px;
+}
+#companies .facebook {
+  max-width: 165px;
+}
+#companies .ibm {
+  max-width: 110px;
 }
 @media screen and (max-width: 992px) {
   #companies .imgbox {
