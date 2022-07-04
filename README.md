@@ -1,1 +1,1 @@
-# AgencyResponsive
+# Bootstrap Template Responsive
