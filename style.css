@@ -224,54 +224,156 @@ header .menu .iconbox .icon {
   font-size: 20px;
 }
 #about .box {
-  margin-bottom: 100px;
+  display: flex;
+}
+#about .box .imgbox {
+  width: 100px;
+  height: 100%;
+  border: 4px solid #e9ecef;
+  border-radius: 100%;
 }
 #about .box .textbox {
-  width: 600px;
-  padding: 0px 40px 20px 100px;
-  text-align: right;
+  width: 515px;
+  padding: 0px 0px 20px 20px;
 }
-#about .box .textbox h2, #about .box .textbox h4 {
-  color: #212529;
+#about .box .textbox h2 {
   font-weight: 700;
-  font-size: 20px;
-}
-#about .box .textbox h4 {
-  margin: 10px 0;
+  font-size: 22px;
+  margin-bottom: 10px;
 }
 #about .box .textbox p {
   color: #6c757d;
-  line-height: 1.85;
+  line-height: 1.55;
+  font-size: 20px;
 }
-#about .box .imgbox {
-  width: 170px;
-  height: 170px;
-  border-radius: 50%;
-  border: 5px solid #e9ecef;
-}
-#about .march, #about .july {
-  justify-content: flex-end;
-}
-#about .march .imgbox, #about .july .imgbox {
-  margin-right: -70px;
-}
-#about .march .textbox, #about .july .textbox {
-  text-align: left;
-  padding: 0px 100px 20px;
-  order: 2;
-}
-#about .bepart {
-  width: 170px;
-  height: 170px;
+#about .text {
+  width: 80px;
+  height: 80px;
+  border: 7px solid #e9ecef;
+  border-radius: 100%;
   background-color: #ffc800;
-  border-radius: 50%;
-  border: 5px solid #e9ecef;
-  text-align: center;
-  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#about .text h4 {
   color: #fff;
-  margin-right: -70px;
-  padding: 0 35px;
-  line-height: 1.15;
+  font-size: 13px;
+  font-weight: 700;
+}
+@media screen and (min-width: 768px) {
+  #about .box {
+    justify-content: start;
+  }
+  #about .box .textbox {
+    width: 285px;
+    padding: 0px 30px 20px;
+  }
+  #about .box .textbox h2 {
+    font-size: 24px;
+  }
+  #about .box .imgbox {
+    width: 120px;
+    height: 120px;
+    border: 7px solid #e9ecef;
+  }
+  #about .box1, #about .box3 {
+    flex-direction: row-reverse;
+  }
+  #about .box1 .textbox, #about .box3 .textbox {
+    text-align: right;
+  }
+  #about .box2, #about .box4 {
+    justify-content: end;
+  }
+  #about .yellow-circle {
+    justify-content: center;
+  }
+  #about .yellow-circle .text {
+    width: 120px;
+    height: 120px;
+  }
+  #about .yellow-circle .text h4 {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 992px) {
+  #about .box .textbox {
+    width: 385px;
+  }
+  #about .box .textbox h2 {
+    font-size: 26px;
+  }
+  #about .box .imgbox {
+    width: 150px;
+    height: 150px;
+  }
+  #about .yellow-circle {
+    margin-left: 10px;
+  }
+  #about .yellow-circle .text {
+    width: 150px;
+    height: 150px;
+  }
+  #about .yellow-circle .text h4 {
+    font-size: 18px;
+  }
+  #about .box1 .imgbox, #about .box3 .imgbox {
+    margin-left: 10px;
+  }
+  #about .box1 .textbox, #about .box3 .textbox {
+    padding-right: 20px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #about .box .textbox {
+    width: 455px;
+  }
+  #about .box .imgbox {
+    width: 170px;
+    height: 170px;
+  }
+  #about .box1 .imgbox, #about .box3 .imgbox {
+    margin-left: 30px;
+  }
+  #about .box1 .textbox, #about .box3 .textbox {
+    padding-right: 0;
+  }
+  #about .yellow-circle {
+    margin-left: 30px;
+  }
+  #about .yellow-circle .text {
+    width: 170px;
+    height: 170px;
+  }
+  #about .yellow-circle .text h4 {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  #about .box .textbox {
+    width: 530px;
+  }
+  #about .box .imgbox {
+    width: 190px;
+    height: 190px;
+  }
+  #about .box1 .imgbox, #about .box3 .imgbox {
+    margin-left: 40px;
+  }
+  #about .box2 .textbox, #about .box4 .textbox {
+    padding-left: 40px;
+  }
+  #about .yellow-circle {
+    margin-left: 40px;
+  }
+  #about .yellow-circle .text {
+    width: 190px;
+    height: 190px;
+  }
+  #about .yellow-circle .text h4 {
+    font-size: 24px;
+  }
 }
 
 #team {
