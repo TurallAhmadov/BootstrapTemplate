@@ -50,7 +50,7 @@ header .menu .iconbox .icon {
   color: rgba(255, 255, 255, 0.5490196078);
   cursor: pointer;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   header .menu nav {
     display: none;
   }
