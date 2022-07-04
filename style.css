@@ -249,7 +249,7 @@ header .menu .iconbox .icon {
 #about .text {
   width: 80px;
   height: 80px;
-  border: 7px solid #e9ecef;
+  border: 4px solid #e9ecef;
   border-radius: 100%;
   background-color: #ffc800;
   display: flex;
@@ -292,6 +292,7 @@ header .menu .iconbox .icon {
   #about .yellow-circle .text {
     width: 120px;
     height: 120px;
+    border: 7px solid #e9ecef;
   }
   #about .yellow-circle .text h4 {
     font-size: 16px;
