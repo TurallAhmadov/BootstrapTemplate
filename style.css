@@ -418,6 +418,7 @@ header .menu .iconbox .icon {
   align-items: center;
   justify-content: center;
   margin-right: 15px;
+  cursor: pointer;
 }
 #team h5 {
   color: #6c757d;
