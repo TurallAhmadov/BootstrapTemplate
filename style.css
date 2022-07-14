@@ -206,10 +206,12 @@ header .menu .iconbox .icon {
 #portfolio .box .textbox h2 {
   font-size: 24px;
   font-weight: 700;
+  line-height: 1.8;
 }
 #portfolio .box .textbox h4 {
   font-size: 20px;
   color: #6c757d;
+  font-style: italic;
 }
 
 #about h1 {
