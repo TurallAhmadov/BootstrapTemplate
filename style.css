@@ -88,10 +88,12 @@ header .menu .iconbox .icon {
   font-size: 30px;
   font-weight: 700;
   font-style: italic;
+  color: #fff;
 }
 #welcome .textbox h1 {
   font-size: 40px;
   margin: 25px 0 40px;
+  color: #fff;
 }
 #welcome .textbox .btn {
   padding: 15px 30px;
