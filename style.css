@@ -207,17 +207,6 @@ header .menu .iconbox .icon {
   font-style: italic;
 }
 
-#about h1 {
-  font-size: 45px;
-  color: #212529;
-  font-weight: 700;
-}
-#about h3 {
-  margin: 20px 0 55px;
-  color: #6c757d;
-  font-style: italic;
-  font-size: 20px;
-}
 #about .box {
   display: flex;
 }
