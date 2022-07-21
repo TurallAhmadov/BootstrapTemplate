@@ -446,17 +446,6 @@ header .menu .iconbox .icon {
   background-repeat: no-repeat;
   background-position: center center;
 }
-#contact h1 {
-  font-size: 45px;
-  color: #fff;
-  font-weight: 700;
-}
-#contact h3 {
-  margin: 20px 0 55px;
-  color: #6c757d;
-  font-style: italic;
-  font-size: 20px;
-}
 #contact .box input {
   width: 100%;
   padding: 20px;
