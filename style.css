@@ -139,17 +139,6 @@ header .menu .iconbox .icon {
   }
 }
 
-#services h1 {
-  font-size: 45px;
-  color: #212529;
-  font-weight: 700;
-}
-#services h3 {
-  margin: 20px 0 55px;
-  color: #6c757d;
-  font-style: italic;
-  font-size: 20px;
-}
 #services .box .icon {
   width: 130px;
   height: 130px;
